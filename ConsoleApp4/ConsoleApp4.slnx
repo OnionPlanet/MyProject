@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../CameraConfiguration/CameraConfiguration.csproj" Id="a346ce70-5659-4947-8cec-435eb8ee21d1" />
+  <Project Path="../CameraEditor/CameraEditor.csproj" Id="8eb82003-7f7f-4f71-9aa1-b2d5e90e0ac1" />
+  <Project Path="ConsoleApp4.csproj" />
+</Solution>

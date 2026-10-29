@@ -1,0 +1,9 @@
+# Build output and Visual Studio local settings
+**/bin/
+**/obj/
+.vs/
+*.user
+
+# Local environment files
+.env
+.env.*

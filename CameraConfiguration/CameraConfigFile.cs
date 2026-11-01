@@ -10,6 +10,16 @@ public static class CameraConfigFile
         string filePath,
         out string error)
     {
+        if (cameras.Count < 1)
+        {
+            error = "配置至少保留一台相机";
+            return false;
+        }
+        string? directory = Path.GetDirectoryName(filePath);
+        if (!string.IsNullOrEmpty(directory))
+        {
+            Directory.CreateDirectory(directory);
+        }
         try
         {
             JsonSerializerOptions options =
